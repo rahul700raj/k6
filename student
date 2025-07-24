@@ -1,0 +1,17 @@
+class Student:
+    def __init__(self, id, name):
+        self.id = id
+        self.name = name
+
+    def print_student_info(self):
+        StudentInfoPrinter.printStudentInfo(self)
+
+
+class StudentInfoPrinter:
+    def printStudentInfo(s):
+        print(f"Student ID: {s.id}, Name: {s.name}")
+
+
+# Example usage
+student1 = Student(123, "Alice")
+student1.print_student_info()

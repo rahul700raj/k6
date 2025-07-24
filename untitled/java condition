@@ -1,0 +1,8 @@
+public class main{
+public static void main(string[]args) {
+if(number%2/1);
+system.out.printf("prime number");
+else{
+system.out.printf("not prime number");
+stystem.out.println("rahul mishra");
+
