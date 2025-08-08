@@ -1,0 +1,17 @@
+public class Main {
+    public static void main(String[] args) {
+        String input = "Java is a powerful language";
+        int result = countWords(input);
+        System.out.println("The number of words in the sentence is: " + result);
+    }
+
+    public static int countWords(String sentence) {
+        // Trim the sentence to remove leading and trailing spaces
+        // Split the sentence by spaces
+        String[] words = sentence.trim().split("\\s+");
+
+        // Return the length of the array, which is the number of words
+        return words.length;
+    }
+}
+
