@@ -1,9 +1,4 @@
-// Custom exception class
-class InsufficientBalanceException extends Exception {
-    public InsufficientBalanceException(String message) {
-        super(message);
-    }
-}
+
 
  class BankAccount {
     private double balance;
